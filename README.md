@@ -16,7 +16,7 @@ Just click one of the following links to navigate to the templates and to get in
 
 > IMPORTANT: The samples are based on the official CLI, which can be downloaded from the following link:  [Download CLI](https://github.com/Squidex/squidex-samples/releases).
 
-* [Oryon Template](OryonTemplate/README.md): Default Template.
+* [Starter Oryon Template](OryonTemplate/README.md): Default Template.
 
 ## How to create a new template?
 
