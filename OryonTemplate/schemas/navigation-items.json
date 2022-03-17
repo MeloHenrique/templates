@@ -1,0 +1,56 @@
+{
+  "$schema": "./../__json/schema.json",
+  "schema": {
+    "noFieldDeletion": false,
+    "noFieldRecreation": false,
+    "properties": {
+      "validateOnPublish": false
+    },
+    "scripts": {},
+    "fieldsInReferences": [],
+    "fieldsInLists": [],
+    "fields": [
+      {
+        "name": "Label",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "String",
+          "isUnique": false,
+          "inlineEditable": false,
+          "contentType": "Unspecified",
+          "editor": "Input",
+          "isRequired": true,
+          "isRequiredOnPublish": true,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "Url",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "String",
+          "isUnique": false,
+          "inlineEditable": false,
+          "contentType": "Unspecified",
+          "editor": "Input",
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      }
+    ],
+    "previewUrls": {},
+    "fieldRules": [],
+    "category": "Navigation",
+    "isPublished": true
+  },
+  "name": "navigation-items",
+  "isSingleton": false,
+  "schemaType": "Default"
+}

@@ -1,0 +1,80 @@
+{
+  "$schema": "./../__json/schema.json",
+  "schema": {
+    "noFieldDeletion": false,
+    "noFieldRecreation": false,
+    "properties": {
+      "validateOnPublish": false
+    },
+    "scripts": {},
+    "fieldsInReferences": [],
+    "fieldsInLists": [],
+    "fields": [
+      {
+        "name": "Logo",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "Assets",
+          "previewMode": "FileName",
+          "maxItems": 1,
+          "resolveFirst": false,
+          "mustBeImage": false,
+          "resolveImage": false,
+          "allowDuplicates": false,
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "NavigationItems",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "References",
+          "allowDuplicates": false,
+          "resolveReference": false,
+          "mustBePublished": false,
+          "editor": "List",
+          "schemaIds": [
+            "navigation-items"
+          ],
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "SocialItems",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "References",
+          "allowDuplicates": false,
+          "resolveReference": false,
+          "mustBePublished": false,
+          "editor": "List",
+          "schemaIds": [
+            "social-items"
+          ],
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      }
+    ],
+    "previewUrls": {},
+    "fieldRules": [],
+    "isPublished": true
+  },
+  "name": "menus",
+  "isSingleton": false,
+  "schemaType": "Default"
+}

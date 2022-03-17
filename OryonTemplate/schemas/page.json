@@ -1,0 +1,141 @@
+{
+  "$schema": "./../__json/schema.json",
+  "schema": {
+    "noFieldDeletion": false,
+    "noFieldRecreation": false,
+    "properties": {
+      "validateOnPublish": false
+    },
+    "scripts": {},
+    "fieldsInReferences": [],
+    "fieldsInLists": [],
+    "fields": [
+      {
+        "name": "URL",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "language",
+        "properties": {
+          "fieldType": "String",
+          "isUnique": false,
+          "inlineEditable": false,
+          "contentType": "Unspecified",
+          "editor": "Input",
+          "placeholder": "/",
+          "isRequired": true,
+          "isRequiredOnPublish": true,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "Icon",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "language",
+        "properties": {
+          "fieldType": "Assets",
+          "previewMode": "FileName",
+          "maxItems": 1,
+          "resolveFirst": false,
+          "mustBeImage": false,
+          "resolveImage": false,
+          "allowDuplicates": false,
+          "isRequired": true,
+          "isRequiredOnPublish": true,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "Title",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "language",
+        "properties": {
+          "fieldType": "String",
+          "isUnique": false,
+          "inlineEditable": false,
+          "contentType": "Unspecified",
+          "editor": "Input",
+          "isRequired": true,
+          "isRequiredOnPublish": true,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "Header",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "language",
+        "properties": {
+          "fieldType": "References",
+          "maxItems": 1,
+          "allowDuplicates": false,
+          "resolveReference": false,
+          "mustBePublished": true,
+          "editor": "List",
+          "schemaIds": [
+            "menus"
+          ],
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "Content",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "language",
+        "properties": {
+          "fieldType": "References",
+          "allowDuplicates": true,
+          "resolveReference": false,
+          "mustBePublished": true,
+          "editor": "List",
+          "schemaIds": [
+            "simple-container",
+            "multiple-content-container",
+            "image-container",
+            "breadcrumbs",
+            "block-container",
+            "assets"
+          ],
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "Footer",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "language",
+        "properties": {
+          "fieldType": "References",
+          "allowDuplicates": false,
+          "resolveReference": false,
+          "mustBePublished": true,
+          "editor": "List",
+          "schemaIds": [
+            "footer"
+          ],
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      }
+    ],
+    "previewUrls": {},
+    "fieldRules": [],
+    "isPublished": true
+  },
+  "name": "page",
+  "isSingleton": false,
+  "schemaType": "Default"
+}

@@ -1,0 +1,119 @@
+{
+  "$schema": "./../__json/schema.json",
+  "schema": {
+    "noFieldDeletion": false,
+    "noFieldRecreation": false,
+    "properties": {
+      "validateOnPublish": false
+    },
+    "scripts": {},
+    "fieldsInReferences": [],
+    "fieldsInLists": [],
+    "fields": [
+      {
+        "name": "Logo",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "References",
+          "maxItems": 1,
+          "allowDuplicates": false,
+          "resolveReference": false,
+          "mustBePublished": false,
+          "editor": "List",
+          "schemaIds": [
+            "assets"
+          ],
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "Slogan",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "String",
+          "isUnique": false,
+          "inlineEditable": false,
+          "contentType": "Unspecified",
+          "editor": "RichText",
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "Right-Menu",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "References",
+          "allowDuplicates": false,
+          "resolveReference": false,
+          "mustBePublished": false,
+          "editor": "List",
+          "schemaIds": [
+            "navigation-items"
+          ],
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "LeftMenu",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "References",
+          "allowDuplicates": false,
+          "resolveReference": false,
+          "mustBePublished": false,
+          "editor": "List",
+          "schemaIds": [
+            "navigation-items"
+          ],
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      },
+      {
+        "name": "SocialItems",
+        "isHidden": false,
+        "isLocked": false,
+        "isDisabled": false,
+        "partitioning": "invariant",
+        "properties": {
+          "fieldType": "References",
+          "allowDuplicates": false,
+          "resolveReference": false,
+          "mustBePublished": false,
+          "editor": "List",
+          "schemaIds": [
+            "social-items"
+          ],
+          "isRequired": false,
+          "isRequiredOnPublish": false,
+          "isHalfWidth": false
+        }
+      }
+    ],
+    "previewUrls": {},
+    "fieldRules": [],
+    "isPublished": true
+  },
+  "name": "footer",
+  "isSingleton": false,
+  "schemaType": "Default"
+}
